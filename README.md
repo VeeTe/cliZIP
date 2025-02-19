@@ -1,6 +1,12 @@
 # cliZIP
 Command-line file compression tool
 
+## Self-Compilation Instruction
+1. https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian?tabs=dotnet9
+2. `dotnet new console -o cliZIP`
+3. `cd cliZIP`
+4. replace the Project.cs with the code from this repo
+5. `dotnet publish -c Release -r win-x64 --self-contained true`
 
 
 
